@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>🌤 Weather App</h1>
+
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter city name">
+      <button onclick="getWeather()">Search</button>
+      <button onclick="getLocation()">📍 Use My Location</button>
+      <button id="themeBtn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    </div>
+    <div id="weatherResult" class="card"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
