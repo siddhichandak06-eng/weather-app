@@ -8,7 +8,7 @@ A responsive weather web app with:
 - 🌈 Dynamic UI
 
 ## 🔗 Live Demo
-(Add your Netlify/Vercel link here)
+https://siddhi-weather-web.netlify.app/
 
 ## 🛠 Tech Used
 - HTML
